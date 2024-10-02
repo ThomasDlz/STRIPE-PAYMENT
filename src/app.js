@@ -1,4 +1,5 @@
 import express from "express";
+import "dotenv/config";
 const app = express();
 import notFound from "./middleware/not-found.middleware.js";
 import errorHandler from "./middleware/error-handler.middleware.js";

@@ -29,7 +29,7 @@ async function initialize() {
   const { clientSecret, dpmCheckerLink } = await response.json();
 
   const appearance = {
-    theme: "stripe",
+    theme: "night",
   };
   elements = stripe.elements({ appearance, clientSecret });
 
